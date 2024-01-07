@@ -1,0 +1,50 @@
+name: proximity
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.9.0+13
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  algolia: ^1.0.1
+  cloud_firestore: ^4.4.5
+  cupertino_icons: ^1.0.2
+  device_info_plus: ^8.2.2
+  firebase_analytics: ^10.1.6
+  firebase_auth: ^4.3.0
+  firebase_core: ^2.8.0
+  firebase_messaging: ^14.3.0
+  flutter_progress_hud: ^2.0.0
+  flutter_riverpod: ^2.3.6
+  font_awesome_flutter: ^10.4.0
+  package_info_plus: ^3.1.2
+  pedantic: ^1.11.0
+  url_launcher: ^6.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  change_app_package_name: ^1.1.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/gif/
+    - assets/images/
