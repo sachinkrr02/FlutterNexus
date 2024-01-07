@@ -1,4 +1,4 @@
-# planto
+# FlutterNexus
 
 A new Flutter project.
 
